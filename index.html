@@ -1,1 +1,477 @@
-<h1>Status</h1>
+<link rel="stylesheet" href="https://demo.cachethq.io/build/dist/css/all-2812406e36.css"></link
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="env" content="production">
+    <meta name="token" content="eoV55Z994sNVJEtNmxMZJ5MFnIK13laFf3E9TPVQ">
+
+    <link rel="alternate" type="application/atom+xml" href="/atom" title="Quantumapp Demo - Atom Feed">
+    <link rel="alternate" type="application/rss+xml" href="/rss" title="Quantumapp Demo - RSS Feed">
+
+    <!-- Mobile friendliness -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="Stay up to date with the latest service updates from Quantumapp Demo.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Quantumapp Demo">
+    <meta property="og:image" content="/img/ogimage.png">
+    <meta property="og:description" content="Stay up to date with the latest service updates from Quantumapp Demo.">
+
+    <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+    <meta http-equiv="cleartype" content="on">
+
+    <meta name="msapplication-TileColor" content="#7ED321">
+    <meta name="msapplication-TileImage" content="/img/favicon.png">
+
+        <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152x152.png">
+
+    <title>Quantumapp Demo</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/build/dist/css/all-2812406e36.css">
+
+    <style type="text/css">
+body.status-page {
+    background-color: #F0F3F4;
+    color: #333333;
+    }
+p, strong { color: #333333 !important; }
+.reds { color: #ff6f6f !important; }
+.blues { color: #3498db !important; }
+.greens { color: #7ED321 !important; }
+.yellows { color: #F7CA18 !important; }
+.oranges { color: #FF8800 !important; }
+.metrics { color: #0dccc0 !important; }
+.links { color: #7ED321 !important; }
+
+/**
+ * Banner background
+ */
+.app-banner {
+    background-color:  !important;
+}
+
+.app-banner-padding {
+    padding: 40px 0 !important;
+}
+
+/**
+ * Alert overrides.
+ */
+.alert {
+    background-color: #F7CA18;
+    border-color: #deb515;
+    color: white;
+}
+.alert.alert-success {
+    background-color: #7ED321;
+    border-color: #71bd1d;
+    color: white;
+}
+.alert.alert-info {
+    background-color: #3498db;
+    border-color: #2e88c5;
+    color: white;
+}
+.alert.alert-danger {
+    background-color: #ff6f6f;
+    border-color: #e56363;
+    color: white;
+}
+
+/**
+ * Button Overrides
+ */
+.btn.links {
+    color: #ac8d10;
+}
+.btn.btn-success {
+    background-color: #7ED321;
+    border-color: #71bd1d;
+    color: white;
+}
+.btn.btn-success.links {
+    color: #589317;
+}
+.btn.btn-success.btn-outline {
+    background-color: transparent;
+    border-color: #7ED321;
+    color: #7ED321;
+}
+.btn.btn-success.btn-outline:hover {
+    background-color: #7ED321;
+    border-color: #71bd1d;
+    color: white;
+}
+.btn.btn-info {
+    background-color: #3498db;
+    border-color: #2e88c5;
+    color: white;
+}
+.btn.btn-info.links {
+    color: #246a99;
+}
+.btn.btn-danger {
+    background-color: #ff6f6f;
+    border-color: #e56363;
+    color: white;
+}
+.btn.btn-danger.links {
+    color: #b24d4d;
+}
+
+/**
+ * Background fills Overrides
+ */
+.component {
+    background-color: #FFFFFF;
+    border-color: #e5e5e5;
+}
+.sub-component {
+    background-color: #FFFFFF;
+    border-color: #e5e5e5;
+}
+.incident {
+    background-color: #FFFFFF;
+    border-color: #e5e5e5;
+}
+.status-icon {
+    background-color: #FFFFFF;
+    border-color: #e5e5e5;
+}
+.panel.panel-message:before {
+    border-left-color: #FFFFFF !important;
+    border-right-color: #FFFFFF !important;
+}
+.panel.panel-message:after {
+    border-left-color: #FFFFFF !important;
+    border-right-color: #FFFFFF !important;
+}
+.footer a {
+    color: #333333;
+}
+</style>
+
+    
+    
+    <script src="https://d1l6p2sc9645hc.cloudfront.net/tracker.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+        var Global = {};
+        Global.locale = 'en';
+    </script>
+    <script src="/build/dist/js/all-b2c62d4294.js"></script>
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><link id="avast_os_ext_custom_font" href="chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/fonts.css" rel="stylesheet" type="text/css"></head>
+<body class="status-page " data-gr-c-s-loaded="true">
+    
+    
+    <div class="container">
+        <div class="section-messages">
+    </div>
+
+<div class="section-status">
+    <!-- Use sucsess in alert-{error} to make green -->
+    <div class="alert alert-error">Website online. Quantumbot Offline or limited</div>
+</div>
+
+<div class="about-app">
+    <h2>Quantumapp Status</h2>
+    <p>Once you are done nosing around our status you can go back <a href="https://status.quantumapp.net?ref=demo">home</a> or if you have any questions visit <a href="https://support.quantumapp.net">our support page</a>. Thanks!</p>
+
+</div>
+
+
+<div class="section-components">
+    <ul class="list-group components">
+        <li class="list-group-item group-name">
+        <i class="ion-ios-minus-outline group-toggle"></i>
+        <strong>Websites</strong>
+
+        <div class="pull-right">
+         <img src="">
+        </div>
+    </li>
+
+    <div class="group-items ">
+                <li class="list-group-item sub-component">
+        <a href="https://quantumapp.net" target="_blank" class="links">Website</a>
+    
+    
+    <div class="pull-right">
+        <small class="text-component-1 greens" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Operational</small>
+    </div>
+</li>
+                <li class="list-group-item sub-component">
+        <a href="https://open.quantumapp.net" target="_blank" class="links">Media Server/Media Site</a>
+    
+       
+    
+    <div class="pull-right">
+        <small class="text-component-1 greens" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Operational</small>
+    </div>
+</li>
+            </div>
+    </ul>
+
+    <div class="group-items hide">
+                <li class="list-group-item sub-component">
+        <a href="https://blog.alt-three.com" target="_blank" class="links">Blog</a>
+    
+        <i class="ion ion-ios-help-outline help-icon" data-toggle="tooltip" data-title="The Alt Three Blog." data-container="body" data-original-title="" title=""></i>
+    
+    <div class="pull-right">
+        <small class="text-component-1 greens" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Operational</small>
+    </div>
+</li>
+                <li class="list-group-item sub-component">
+        <a href="https://styleci.io" target="_blank" class="links">StyleCI</a>
+    
+        <i class="ion ion-ios-help-outline help-icon" data-toggle="tooltip" data-title="The PHP Coding Style Service." data-container="body" data-original-title="" title=""></i>
+    
+    <div class="pull-right">
+        <small class="text-component-1 greens" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Operational</small>
+    </div>
+</li>
+            </div>
+    </ul>
+
+<ul class="list-group components">
+    <li class="list-group-item group-name">
+        <strong>Other Components</strong>
+    </li>
+        <li class="list-group-item component">
+            <a href="https://status.discordapp.com" target="_blank">Quantumapp Discord</a>
+        
+    
+        <i class="ion ion-ios-help-outline help-icon" data-toggle="tooltip" data-title="Used by third-parties to connect to us" data-container="body" data-original-title="" title=""></i>
+    
+    <div class="pull-right">
+        <small class="text-component-1 reds" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Click 'Quanumtapp discord'</small>
+    </div>
+</li>
+    </ul>
+</div>
+
+
+<script>
+(function () {
+    Chart.defaults.global.elements.point.hitRadius = 10;
+    Chart.defaults.global.responsiveAnimationDuration = 1000;
+    Chart.defaults.global.legend.display = false;
+
+    var charts = {};
+
+    $('a[data-filter-type]').on('click', function(e) {
+        e.preventDefault();
+
+        var $this = $(this), $li, $canvas;
+
+        $li = $this.parents('li');
+        $li.find('a[data-toggle=dropdown] span.filter').text($this.text());
+        $canvas = $li.find('canvas');
+
+        $canvas.data('metric-group', $this.data('filter-type'));
+        drawChart($canvas);
+    });
+
+    $('canvas[data-metric-id]').each(function() {
+        drawChart($(this));
+    });
+
+    function drawChart($el) {
+        var metricId = $el.data('metric-id');
+        var metricGroup = $el.data('metric-group');
+
+        if (typeof charts[metricId] === 'undefined') {
+            charts[metricId] = {
+                context: document.getElementById("metric-"+metricId).getContext("2d"),
+                chart: null,
+            };
+        }
+
+        var chart = charts[metricId];
+
+        $.getJSON('/metrics/'+metricId, { filter: metricGroup }).done(function (result) {
+            var data = result.data.items;
+
+            if (chart.chart !== null) {
+                chart.chart.destroy();
+            }
+
+            chart.chart = new Chart(chart.context, {
+                type: 'line',
+                data: {
+                    labels: _.keys(data),
+                    datasets: [{
+                        data: _.values(data),
+                        backgroundColor: "#0dccc0",
+                        borderColor: "#0bb7ac",
+                        pointBackgroundColor: "#0bb7ac",
+                        pointBorderColor: "#0bb7ac",
+                        pointHoverBackgroundColor: "#0aa399",
+                        pointHoverBorderColor: "#0aa399"
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                suggestedMax: 0.1,
+                                // fixedStepSize: result.data.metric.places,
+                                callback: function(tickValue, index, ticks) {
+                                    var delta = ticks[1] - ticks[0];
+
+                                    // If we have a number like 2.5 as the delta, figure out how many decimal places we need
+                                    if (Math.abs(delta) > 1) {
+                                        if (tickValue !== Math.floor(tickValue)) {
+                                            delta = tickValue - Math.floor(tickValue);
+                                        }
+                                    }
+
+                                    var logDelta = Chart.helpers.log10(Math.abs(delta));
+                                    var tickString = '';
+
+                                    if (tickValue !== 0) {
+                                        var numDecimal = -1 * Math.floor(logDelta);
+                                        numDecimal = Math.max(Math.min(numDecimal, 2), 0); // Use as many places as the metric defines
+                                        tickString = tickValue.toFixed(numDecimal);
+                                    } else {
+                                        tickString = '0'; // Never show decimal places for 0
+                                    }
+
+                                    return tickString;
+                                }
+                            }
+                        }]
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem, data) {
+                                return tooltipItem.yLabel + ' ' + result.data.metric.suffix;
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    }
+}());
+</script>
+</div>
+
+
+<div class="section-timeline">
+    <h1>Past Incidents</h1>
+        <h4>11th February 2020</h4>
+<div class="timeline">
+    <div class="content-wrapper">
+                <div class="moment first">
+            <div class="row event clearfix">
+                <div class="col-sm-1">
+                    <div class="status-icon status-4" data-toggle="tooltip" title="" data-placement="left" data-original-title="Fixed">
+                        <i class="icon ion-checkmark greens"></i>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-offset-2 col-sm-11 col-sm-offset-0">
+                    <div class="panel panel-message incident">
+    <div class="panel-heading">
+                        <strong>Domain Switch</strong>
+        <br>
+        <small class="date">
+                        <a href="https://status.quantumapp.net" class="links"><abbr class="timeago" data-toggle="tooltip" data-placement="right" title="" data-timeago="2020-02-11T21:30:02+00:00" data-original-title="Tuesday 11th February 2020 21:30:02">10th February 2020</abbr></a>
+                    </small>
+    </div>
+    <div class="panel-body markdown-body">
+        <h3>Switching domains to <a href="https://status.quantumapp.net">status.quantumapp.net</a></h3>
+
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+                <div class="moment ">
+            <div class="row event clearfix">
+                <div class="col-sm-1">
+                    <div class="status-icon status-4" data-toggle="tooltip" title="" data-placement="left" data-original-title="Fixed">
+                        <i class="icon ion-checkmark greens"></i>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-offset-2 col-sm-11 col-sm-offset-0">
+                    <div class="panel panel-message incident">
+    <div class="panel-heading">
+                        <strong>Domains swithed with HTTPS support</strong>
+        <br>
+        <small class="date">
+                        <a href="https://status.quantumapp.net" class="links"><abbr class="timeago" data-toggle="tooltip" data-placement="right" title="" data-timeago="2020-02-11T21:30:02+00:00" data-original-title="Tuesday 11th February 2020 21:30:02">11th February 2020</abbr></a>
+                    </small>
+    </div>
+    <div class="panel-body markdown-body">
+        <p>:+1: We totally nailed the fix.</p>
+
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+  
+</div>
+                </div>
+            </div>
+        </div>
+                <div class="moment ">
+            <div class="row event clearfix">
+                <div class="col-sm-1">
+                    <div class="status-icon status-2" data-toggle="tooltip" title="" data-placement="left" data-original-title="Identified">
+                        
+                    </div>
+                </div>
+  
+</div>
+                </div>
+            </div>
+        </div>
+      
+                </div>
+            </div>
+        </div>
+                </div>
+
+</div>
+                </div>
+            </div>
+        </div>
+            </div>
+</div>
+     
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58442674-3', 'localhost');
+  ga('send', 'pageview');
+</script>
+<script>
+  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+  d.src='https://d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+  insertBefore(d,q)}(window,document,'script','_gs');
+
+  _gs('GSN-712462-P');
+</script>
+
+
+</body></html>
