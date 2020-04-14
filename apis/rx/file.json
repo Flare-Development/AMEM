@@ -1,6 +1,6 @@
 {
   "website": "Operational",
-  "media-server": "Operational",
+  "mediasrv": "Operational",
   "quantum-bot": "Operational",
   "apis": "Updated",
   "msg": "Support page is down. We are working on other things and the support page is not at the top of our priorities list."
