@@ -4,7 +4,7 @@
   "quantum-bot": "Operational",
   "apis": "Updated",
   "hexcolor": "#00ff00",
-  "msg": "Support page is down. We are working on other things and the support page is not at the top of our priorities list."
-  "rawurl": "https://status.quantumapp.net/apis/rx/file.json"
+  "msg": "Support page is down. We are working on other things and the support page is not at the top of our priorities list.",
+  "rawurl": "https://status.quantumapp.net/apis/rx/file.json",
   "styledurl": "https://status.quantumapp.net/"
  }
