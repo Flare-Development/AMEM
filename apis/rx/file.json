@@ -1,7 +1,7 @@
 {
   "website": "Incident At Apr 23, 13:20 UTC (Service Restored)",
   "mediasrv": "Incident At Apr 23, 13:20 UTC (Service Restored)",
-  "quantum-bot": "Quantumbot was uneffected by the Github outage",
+  "quantum-bot": "Quantumbot was unaffected by the Github outage",
   "apis": "Updated",
   "hexcolor": "#ffff00",
   "msg": "Incident Apr 23, 13:20 UTC at Github causing some websites not to load correctly (500) Most of our pages that run off of Github are now up!",
