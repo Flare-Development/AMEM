@@ -1,10 +1,10 @@
 {
-  "website": "Operational",
-  "mediasrv": "Operational",
-  "quantum-bot": "Operational",
+  "website": "Incident At Apr 23, 13:20 UTC (Service Restored)",
+  "mediasrv": "Incident At Apr 23, 13:20 UTC (Service Restored)",
+  "quantum-bot": "Quantumbot was uneffected by the Github outage",
   "apis": "Updated",
-  "hexcolor": "#00ff00",
-  "msg": "Support page is down. We are working on other things and the support page is not at the top of our priorities list.",
+  "hexcolor": "#ffff00",
+  "msg": "Incident Apr 23, 13:20 UTC at Github causing some websites not to load correctly (500) Most of our pages that run off of Github are now up!",
   "rawurl": "https://status.quantumapp.net/apis/rx/file.json",
   "styledurl": "https://status.quantumapp.net/"
  }
