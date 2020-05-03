@@ -1,3 +1,29 @@
+
+
+<script type="text/javascript">
+var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+document.getElementById('clockbox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
 <link rel="stylesheet" href="https://demo.cachethq.io/build/dist/css/all-2812406e36.css"></link
 <html><head>
     
@@ -184,7 +210,7 @@ p, strong { color: #333333 !important; }
 
 <div class="section-status">
     <!-- Use sucsess in alert-{error} to make green -->
-    <div class="alert alert-warning">Investigating Apr 23, 13:20 UTC at Github</div>
+    <div class="alert alert-success">Operational </div>
 </div>
 
 <div class="about-app">
@@ -211,7 +237,7 @@ p, strong { color: #333333 !important; }
     
     
     <div class="pull-right">
-        <small class="text-component-1 yellows" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Incident At Apr 23, 13:20 UTC (Service Restored)</small>
+        <small class="text-component-1 greens" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Operational</small>
     </div>
 </li>
                 <li class="list-group-item sub-component">
@@ -220,7 +246,7 @@ p, strong { color: #333333 !important; }
        
     
     <div class="pull-right">
-        <small class="text-component-1 greens" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Incident At Apr 23, 13:20 UTC (Service Restored)</small>
+        <small class="text-component-1 greens" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Operational</small>
     </div>
 </li>
             </div>
@@ -269,7 +295,7 @@ p, strong { color: #333333 !important; }
        
     
     <div class="pull-right">
-        <small class="text-component-1 greens" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Operational (Unaffected)</small>
+        <small class="text-component-1 greens" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Operational</small>
     </div>
 </li>
             </div>
@@ -388,7 +414,7 @@ p, strong { color: #333333 !important; }
 <center>
 <div class="section-timeline">
     <h1>Past Incidents</h1>
-        <h4>Thursday April 23rd 2020</h4>
+        <h4>No active incidents</h4>
         </center>
     <hr     />
 <div class="timeline">
@@ -397,7 +423,7 @@ p, strong { color: #333333 !important; }
             <div class="row event clearfix">
                 <div class="col-sm-1">
                     <div class="status-icon status-4" data-toggle="tooltip" title="" data-placement="left" data-original-title="Fixed">
-                        <i class="icon ion-checkmark greens"></i>
+                       <p id="centerCheck" class="icon"> ✔️</p>
                     </div>
                 </div>
                 <div class="col-xs-10 col-xs-offset-2 col-sm-11 col-sm-offset-0">
@@ -412,6 +438,8 @@ p, strong { color: #333333 !important; }
     <div class="panel-body markdown-body">
         <h3>Most of our static websites run on Github pages; Github pages and Github.com was down today at 13:20 UTC</h3>
         <h5>-Kim [Quantumapp Co-Founder]</h5>
+        <hr   />
+        <center><b><p>Problem Resolved! View thread below</p></b></center>
     </div>
 </div>
                 </div>
@@ -421,21 +449,42 @@ p, strong { color: #333333 !important; }
             <div class="row event clearfix">
                 <div class="col-sm-1">
                     <div class="status-icon status-4" data-toggle="tooltip" title="" data-placement="left" data-original-title="Fixed">
-                        <i class="icon ion-checkmark greens"></i>
+                        <center>
+                           
+                        <p id="centerCheck" class="icon"> ✔️</p>
+                        </center>
+                        <style>
+                            #centerCheck {
+                                 top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+                            }
+                            
+                        </style>
                     </div>
                 </div>
                 <div class="col-xs-10 col-xs-offset-2 col-sm-11 col-sm-offset-0">
                     <div class="panel panel-message incident">
     <div class="panel-heading">
-                        <strong>Service Restored</strong>
+                        <strong>Operational</strong>
         <br>
         <small class="date">
                         <a href="https://status.quantumapp.net" class="links"><abbr class="timeago" data-toggle="tooltip" data-placement="right" title="" data-timeago="2020-02-11T21:30:02+00:00" data-original-title="Tuesday 11th February 2020 21:30:02">Thursday April 23rd 2020</abbr></a>
                     </small>
     </div>
     <div class="panel-body markdown-body">
-        <p>We are now testing the rest of our pages to make sure everything is online.</p>
-
+     <h5><span style="color:#7ED321;">Resolved</span> - This incident has been resolved.</h5>
+<small>Apr 23, 20:37 UTC</small>
+<p>GITHUB STATUS MSG:</p>
+Update - We have identified the source of elevated errors and are working on recovery.
+Apr 23, 20:09 UTC
+Investigating - We are investigating elevated errors starting GitHub Actions workflows.
+Apr 23, 19:40 UTC
+       
+       
+        <hr   />
+        <center><p>Remember to report outages to <a target="_blank" href="https://discord.gg/yUejJy4"><b>our discord</b></a></p></center>
     </div>
 </div>
                 </div>
