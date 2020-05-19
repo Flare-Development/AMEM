@@ -1,5 +1,3 @@
-
-
 <script type="text/javascript">
 var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
@@ -210,7 +208,7 @@ p, strong { color: #333333 !important; }
 
 <div class="section-status">
     <!-- Use sucsess in alert-{error} to make green -->
-    <div class="alert alert-success">Operational </div>
+    <div class="alert alert-error">Quantumbot Offline </div>
 </div>
 
 <div class="about-app">
@@ -295,7 +293,7 @@ p, strong { color: #333333 !important; }
        
     
     <div class="pull-right">
-        <small class="text-component-1 greens" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Operational</small>
+        <small class="text-component-1 reds" data-toggle="tooltip" title="" data-original-title="Last updated Tuesday 11th February 2020 21:30:02">Offline</small>
     </div>
 </li>
             </div>
@@ -414,7 +412,7 @@ p, strong { color: #333333 !important; }
 <center>
 <div class="section-timeline">
     <h1>Past Incidents</h1>
-        <h4>No active incidents</h4>
+        <h4>Data loss</h4>
         </center>
     <hr     />
 <div class="timeline">
@@ -423,23 +421,24 @@ p, strong { color: #333333 !important; }
             <div class="row event clearfix">
                 <div class="col-sm-1">
                     <div class="status-icon status-4" data-toggle="tooltip" title="" data-placement="left" data-original-title="Fixed">
-                       <p id="centerCheck" class="icon"> ✔️</p>
+                       <p id="centerCheck" class="icon"> ❌</p>
                     </div>
                 </div>
                 <div class="col-xs-10 col-xs-offset-2 col-sm-11 col-sm-offset-0">
                     <div class="panel panel-message incident">
     <div class="panel-heading">
-                        <strong>Github.com Outage</strong>
+                        <strong>Data loss</strong>
         <br>
         <small class="date">
-                        <a href="https://status.quantumapp.net" class="links"><abbr class="timeago" data-toggle="tooltip" data-placement="right" title="" data-timeago="2020-02-11T21:30:02+00:00" data-original-title="Wednesday 18th March 2020 21:30:02">Thursday April 23rd 2020</abbr></a>
+                        <a href="https://status.quantumapp.net" class="links"><abbr class="timeago" data-toggle="tooltip" data-placement="right" title="" data-timeago="2020-02-11T21:30:02+00:00" data-original-title="Wednesday 18th March 2020 21:30:02">Tuesday, May 19, 2020</abbr></a>
                     </small>
     </div>
     <div class="panel-body markdown-body">
-        <h3>Most of our static websites run on Github pages; Github pages and Github.com was down today at 13:20 UTC</h3>
+        <h3>What happend:</h3>
+        <p>Basically we are idiots and did not backup correctly</p>
         <h5>-Kim [Quantumapp Co-Founder]</h5>
         <hr   />
-        <center><b><p>Problem Resolved! View thread below</p></b></center>
+        <center><b><p>We are still working on this.</p></b></center>
     </div>
 </div>
                 </div>
@@ -451,7 +450,7 @@ p, strong { color: #333333 !important; }
                     <div class="status-icon status-4" data-toggle="tooltip" title="" data-placement="left" data-original-title="Fixed">
                         <center>
                            
-                        <p id="centerCheck" class="icon"> ✔️</p>
+                        <p id="centerCheck" class="icon"> ❌</p>
                         </center>
                         <style>
                             #centerCheck {
@@ -464,7 +463,7 @@ p, strong { color: #333333 !important; }
                         </style>
                     </div>
                 </div>
-                <div class="col-xs-10 col-xs-offset-2 col-sm-11 col-sm-offset-0">
+                <div style="display:none;"class="col-xs-10 col-xs-offset-2 col-sm-11 col-sm-offset-0">
                     <div class="panel panel-message incident">
     <div class="panel-heading">
                         <strong>Operational</strong>
