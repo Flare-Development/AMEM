@@ -4,9 +4,17 @@
   "quantum-bot": "Operational",
   "apis": "Updated",
   "hexcolor": "#00FF00",
-  "msg": "Quantumbot - New commands added | Check q/help to see new commands.",
+  "_bot": "Nothing new to report, as always run q/help to see commands",
   "rawurl": "https://status.quantumapp.net/apis/rx/file.json",
   "styledurl": "https://status.quantumapp.net/",
+  "_comment_styledurl": "We have closed the styled status page down for now, this page will always be up",
   "icon": "✔️",
-  "error": "false"
+  "error": "false",
+  "events": [
+           {
+              "Most-Rec": "Status page shut down",
+              "_comment": "ALL OLD EVENTS REMOVED!"
+           }
+            ]
+
  }
